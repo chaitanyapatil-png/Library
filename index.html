@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZBPC Library</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>MANG LIBRARY</h1>
+        <p>यशाची उमंग हवी</p>
+        <input type="text" id="searchBar" placeholder="Search book, author, year" onkeyup="searchBooks()">
+    </header>
+    
+    <main id="bookContainer">
+        <div class="book-card" onclick="openModal('Book One', 'Author A', '2023', 'A thrilling mystery novel.', 'Available', 'Department 1', '4.5', 'Devol' )">
+            <img src="E:\Pitures\Images\20240114_103354.jpg" alt="Book One">
+            <h3>Book One</h3>
+            <p>Author A</p>
+        </div>
+        <div class="book-card" onclick="openModal('Book Two', 'Author B', '2022', 'An inspiring self-help book.', 'Not Available', '', '4.0','Devol')">
+            <img src="D:\New folder\T\images\break.jpg" alt="Book Two">
+            <h3>Book Two</h3>
+            <p>Author B</p>
+        </div>
+        <div class="book-card" onclick="openModal('Book Three', 'Author C', '2021', 'A deep dive into history.', 'Available', 'Department 2', '4.2')">
+            <img src="D:\New folder\T\images\TM3.jpg" alt="Book Three">
+            <h3>Book Three</h3>
+            <p>Author C</p>
+        </div>
+        <div class="book-card" onclick="openModal('Book Four', 'Author D', '2020', 'A guide to modern technology.', 'Available', 'Department 3', '4.8')">
+            <img src="E:\Pitures\Images\IMG-20211021-WA0012.jpg" alt="Book Four">
+            <h3>Book Four</h3>
+            <p>Author D</p>
+        </div>
+        <div class="book-card" onclick="openModal('Book Five', 'Author E', '2019', 'An engaging fantasy adventure.', 'Not Available', '', '3.9')">
+            <img src="E:\Pitures\Images\IMG-20211021-WA0002.jpg" alt="Book Five">
+            <h3>Book Five</h3>
+            <p>Author E</p>
+        </div>
+        <div class="book-card" onclick="openModal('Book One', 'Author A', '2023', 'A thrilling mystery novel.', 'Available', 'Department 1', '4.5', 'Devol' )">
+            <img src="E:\Pitures\Images\IMG-20211021-WA0013.jpg" alt="Book One">
+            <h3>Book One</h3>
+            <p>Author A</p>
+        </div>
+        <div class="book-card" onclick="openModal('Book Two', 'Author B', '2022', 'An inspiring self-help book.', 'Not Available', '', '4.0','Devol')">
+            <img src="E:\Pitures\Images\20240114_103354.jpg" alt="Book Two">
+            <h3>Book Two</h3>
+            <p>Author B</p>
+        </div>
+        <div class="book-card" onclick="openModal('Book Three', 'Author C', '2021', 'A deep dive into history.', 'Available', 'Department 2', '4.2')">
+            <img src="E:\Pitures\Images\20240114_103354.jpg" alt="Book Three">
+            <h3>Book Three</h3>
+            <p>Author C</p>
+        </div>
+        <div class="book-card" onclick="openModal('Book Four', 'Author D', '2020', 'A guide to modern technology.', 'Available', 'Department 3', '4.8')">
+            <img src="E:\Pitures\Images\20240114_103354.jpg" alt="Book Four">
+            <h3>Book Four</h3>
+            <p>Author D</p>
+        </div>
+        <div class="book-card" onclick="openModal('Book Five', 'Author E', '2019', 'An engaging fantasy adventure.', 'Not Available', '', '3.9')">
+            <img src="E:\Pitures\Images\20240114_103354.jpg" alt="Book Five">
+            <h3>Book Five</h3>
+            <p>Author E</p>
+        </div>
+    </main>
+    
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="bookTitle"></h2>
+            <p id="bookAuthor"></p>
+            <p id="bookYear"></p>
+            <p id="bookDescription"></p>
+            <p id="bookAvailability"></p>
+            <p id="bookDepartment"></p>
+            <p id="bookRating"></p>
+            <p id="owner"></p>
+        </div>
+    </div>
+    <div id="noteM" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>NOTE:</h2>
+            <p id="imfo"></p>
+            <h3 id="note"></h3>
+        </div>   
+    </div>
+</body>
+</html>
