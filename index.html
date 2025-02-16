@@ -3,70 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MANG Library</title>
+    <title>MG Library</title>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
 </head>
 <body>
     <header>
-        <h1>MANG LIBRARY</h1>
+        <h1>MG LIBRARY</h1>
         <p>यशाची उमंग हवी</p>
         <input type="text" id="searchBar" placeholder="Search book, author, year" onkeyup="searchBooks()">
     </header>
     
     <main id="bookContainer">
-        <div class="book-card" onclick="openModal('Book One', 'Author A', '2023', 'A thrilling mystery novel.', 'Available', 'Department 1', '4.5', 'Devol' )">
-            <img src="20240114_103354.jpg" alt="Book One">
-            <h3>Book One</h3>
-            <p>Author A</p>
-        </div>
-        <div class="book-card" onclick="openModal('Book Two', 'Author B', '2022', 'An inspiring self-help book.', 'Not Available', '', '4.0','Devol')">
-            <img src="D:\New folder\T\images\break.jpg" alt="Book Two">
-            <h3>Book Two</h3>
-            <p>Author B</p>
-        </div>
-        <div class="book-card" onclick="openModal('Book Three', 'Author C', '2021', 'A deep dive into history.', 'Available', 'Department 2', '4.2')">
-            <img src="D:\New folder\T\images\TM3.jpg" alt="Book Three">
-            <h3>Book Three</h3>
-            <p>Author C</p>
-        </div>
-        <div class="book-card" onclick="openModal('Book Four', 'Author D', '2020', 'A guide to modern technology.', 'Available', 'Department 3', '4.8')">
-            <img src="E:\Pitures\Images\IMG-20211021-WA0012.jpg" alt="Book Four">
-            <h3>Book Four</h3>
-            <p>Author D</p>
-        </div>
-        <div class="book-card" onclick="openModal('Book Five', 'Author E', '2019', 'An engaging fantasy adventure.', 'Not Available', '', '3.9')">
-            <img src="E:\Pitures\Images\IMG-20211021-WA0002.jpg" alt="Book Five">
-            <h3>Book Five</h3>
-            <p>Author E</p>
-        </div>
-        <div class="book-card" onclick="openModal('Book One', 'Author A', '2023', 'A thrilling mystery novel.', 'Available', 'Department 1', '4.5', 'Devol' )">
-            <img src="E:\Pitures\Images\IMG-20211021-WA0013.jpg" alt="Book One">
-            <h3>Book One</h3>
-            <p>Author A</p>
-        </div>
-        <div class="book-card" onclick="openModal('Book Two', 'Author B', '2022', 'An inspiring self-help book.', 'Not Available', '', '4.0','Devol')">
-            <img src="E:\Pitures\Images\20240114_103354.jpg" alt="Book Two">
-            <h3>Book Two</h3>
-            <p>Author B</p>
-        </div>
-        <div class="book-card" onclick="openModal('Book Three', 'Author C', '2021', 'A deep dive into history.', 'Available', 'Department 2', '4.2')">
-            <img src="E:\Pitures\Images\20240114_103354.jpg" alt="Book Three">
-            <h3>Book Three</h3>
-            <p>Author C</p>
-        </div>
-        <div class="book-card" onclick="openModal('Book Four', 'Author D', '2020', 'A guide to modern technology.', 'Available', 'Department 3', '4.8')">
-            <img src="E:\Pitures\Images\20240114_103354.jpg" alt="Book Four">
-            <h3>Book Four</h3>
-            <p>Author D</p>
-        </div>
-        <div class="book-card" onclick="openModal('Book Five', 'Author E', '2019', 'An engaging fantasy adventure.', 'Not Available', '', '3.9')">
-            <img src="E:\Pitures\Images\20240114_103354.jpg" alt="Book Five">
-            <h3>Book Five</h3>
-            <p>Author E</p>
-        </div>
+        <!-- Book cards will be dynamically inserted here -->
     </main>
     
+    <!-- Book Details Modal -->
     <div id="bookModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
@@ -80,6 +32,7 @@
             <p id="owner"></p>
         </div>
     </div>
+    <!-- Note Modal -->
     <div id="noteM" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
@@ -88,5 +41,78 @@
             <h3 id="note"></h3>
         </div>   
     </div>
+    <script>
+        // Function to generate book cards
+    function generateBookCards() {
+        const bookContainer = document.getElementById("bookContainer");
+        bookContainer.innerHTML = ""; // Clear existing content
+
+        books.forEach(book => {
+            const bookCard = document.createElement("div");
+            bookCard.classList.add("book-card");
+            bookCard.setAttribute("onclick", `openModal('${book.title}', '${book.author}', '${book.year}', '${book.description}', '${book.availability}', '${book.department}', '${book.rating}', '${book.owner}', '${book.image}')`);
+
+            bookCard.innerHTML = `
+                <img src="${book.image}" alt="${book.title}">
+                <h3>${book.title}</h3>
+                <p>${book.author}</p>
+            `;
+
+            bookContainer.appendChild(bookCard);
+        });
+    }
+
+    // Call the function to generate book cards on page load
+    generateBookCards();
+
+    // Function to open modal with dynamic styling
+    function openModal(title, author, year, description, availability, department, rating, owner, image) {
+        const modal = document.getElementById("bookModal");
+        const modalContent = modal.querySelector(".modal-content");
+
+        // Set content
+        document.getElementById("bookTitle").innerText = title;
+        document.getElementById("bookAuthor").innerText = `By ${author}`;
+        document.getElementById("bookYear").innerText = `Year: ${year}`;
+        document.getElementById("bookDescription").innerText = `Description: ${description}`;
+        document.getElementById("bookAvailability").innerText = `Availability: ${availability}`;
+        document.getElementById("bookDepartment").innerText = `Department: ${department}`;
+        //document.getElementById("bookRating").innerText = `Rating: ${rating} ⭐`;
+        //document.getElementById("owner").innerText = `Owner: ${owner}`;
+
+        // Add dynamic styling
+        modalContent.style.backgroundColor = "#ffffff";
+        modalContent.style.borderRadius = "10px";
+        modalContent.style.padding = "20px";
+        modalContent.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
+        modalContent.style.position = "relative";
+        modalContent.style.maxWidth = "600px";
+        modalContent.style.width = "80%";
+
+        // Show modal
+        modal.style.display = "flex";
+    }
+
+    // Function to close modal
+    function closeModal() {
+        document.getElementById("bookModal").style.display = "none";
+        document.getElementById('noteM').style.display = 'none';
+    }
+    window.onload = async function() {
+        note();
+    };
+    function note() {
+        let imfo='Hello Mangrulkar, this is information about three libraries in Magrul and which books are available in each library. This information is updating every month.'
+        document.getElementById('imfo').innerText = imfo;
+        document.getElementById('note').innerText = '"One more thing: You can read all available books with permision of owner of the book in library" ';
+    }
+    function searchBooks() {
+        let input = document.getElementById('searchBar').value.toLowerCase();
+        let books = document.getElementsByClassName('book-card');
+        for (let book of books) {
+            book.style.display = book.innerText.toLowerCase().includes(input) ? 'block' : 'none';
+        }    
+    }
+    </script>
 </body>
 </html>
