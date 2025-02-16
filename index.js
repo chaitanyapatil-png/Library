@@ -9,7 +9,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "4.0",
         owner: "Dipak",
-        image: "D:/1.jpg"
+        image: "1.jpg"
     },
     {
         title: "PSI STI ASO",
@@ -20,7 +20,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "4.0",
         owner: "Harshal",
-        image: "D:/2.jpg"
+        image: "2.jpg"
     },
     {
         title: "Mathematics",
@@ -31,7 +31,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "4.2",
         owner: "Ganesh",
-        image: "D:/3.jpg"
+        image: "3.jpg"
     },
     {
         title: "SSC GD",
@@ -42,7 +42,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "4.8",
         owner: "Dipak",
-        image: "D:/4.jpg"
+        image: "4.jpg"
     },
     {
         title: "SSC GD",
@@ -53,7 +53,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/5.jpg"
+        image: "5.jpg"
     },
     //hiii
     {
@@ -65,7 +65,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/6.jpg"
+        image: "6.jpg"
     },
     {
         title: "SSC GD",
@@ -76,7 +76,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/7.jpg"
+        image: "7.jpg"
     },
     {
         title: "Mega",
@@ -87,7 +87,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/8.jpg"
+        image: "8.jpg"
     },
     {
         title: "Maths",
@@ -98,7 +98,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/9.jpg"
+        image: "9.jpg"
     },
     {
         title: "POLICE BHARATI",
@@ -109,7 +109,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/10.jpg"
+        image: "10.jpg"
     },
     {
         title: "MARATHI VYAKARAN",
@@ -120,7 +120,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/11.jpg"
+        image: "11.jpg"
     },
     {
         title: "POLICE BHARATI",
@@ -131,7 +131,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/13.jpg"
+        image: "13.jpg"
     },
     {
         title: "TOKALA",
@@ -142,7 +142,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/14.jpg"
+        image: "14.jpg"
     },
     {
         title: "MARATHI",
@@ -153,7 +153,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/15.jpg"
+        image: "15.jpg"
     },
     {
         title: "MEGA",
@@ -164,7 +164,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/16.jpg"
+        image: "16.jpg"
     },
     {
         title: "POLICE BHARATI",
@@ -175,7 +175,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/17.jpg"
+        image: "17.jpg"
     },
     {
         title: "666+ JAMBO",
@@ -186,7 +186,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/18.jpg"
+        image: "18.jpg"
     },
     {
         title: "MATHS",
@@ -197,7 +197,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/19.jpg"
+        image: "19.jpg"
     },
     {
         title: "ELECTRISHIAN TREDE",
@@ -208,7 +208,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/20.jpg"
+        image: "20.jpg"
     },
     {
         title: "ELECTRISHIAN THEORY",
@@ -219,7 +219,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/21.jpg"
+        image: "21.jpg"
     },
     {
         title: "MEGA",
@@ -230,7 +230,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/22.jpg"
+        image: "22.jpg"
     },
     {
         title: "MARATHI",
@@ -241,7 +241,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/23.jpg"
+        image: "23.jpg"
     },
     {
         title: "ENGLISH",
@@ -252,7 +252,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/24.jpg"
+        image: "24.jpg"
     },
     {
         title: "REASONING",
@@ -263,7 +263,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/25.jpg"
+        image: "25.jpg"
     },
     {
         title: "MATHS",
@@ -274,7 +274,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/26.jpg"
+        image: "26.jpg"
     },            {
         title: "MARATI",
         author: "M.R.VALMBE",
@@ -284,7 +284,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/27.jpg"
+        image: "27.jpg"
     },
     {
         title: "TRAFFIC POLICE",
@@ -295,7 +295,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/28.jpg"
+        image: "28.jpg"
     },
     {
         title: "GEOGRAPHY",
@@ -306,7 +306,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/29.jpg"
+        image: "29.jpg"
     },
     {
         title: "ENGLISH",
@@ -317,7 +317,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/30.jpg"
+        image: "30.jpg"
     },
     {
         title: "ELECTRONIC",
@@ -328,7 +328,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/31.jpg"
+        image: "31.jpg"
     },
     {
         title: "POLICE BHARATI",
@@ -339,7 +339,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/32.jpg"
+        image: "32.jpg"
     },
     {
         title: "POLICE BHARATI",
@@ -350,7 +350,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/33.jpg"
+        image: "33.jpg"
     },
     {
         title: "MARTHI",
@@ -361,7 +361,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/34.jpg"
+        image: "34.jpg"
     },
     {
         title: "MEGA",
@@ -372,7 +372,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/35.jpg"
+        image: "35.jpg"
     },
     {
         title: "MAHAVITARAN",
@@ -383,7 +383,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/36.jpg"
+        image: "36.jpg"
     },
     {
         title: "BUILDING CONSTRUCTION",
@@ -394,7 +394,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/37.jpg"
+        image: "37.jpg"
     },
     {
         title: "SSC",
@@ -405,7 +405,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/38.jpg"
+        image: "38.jpg"
     },
     {
         title: "JAMBO",
@@ -416,7 +416,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/39.jpg"
+        image: "39.jpg"
     },            {
         title: "280 MEGA",
         author: "K.K.BHUTEKAR",
@@ -426,7 +426,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/40.jpg"
+        image: "40.jpg"
     },            {
         title: "CIVIL ENGINEERING",
         author: " ",
@@ -436,7 +436,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/41.jpg"
+        image: "41.jpg"
     },            {
         title: "MATHS",
         author: "SACHIN DAVALE",
@@ -446,7 +446,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/42.jpg"
+        image: "42.jpg"
     },            {
         title: "CIVIL ENGINEERING",
         author: " ",
@@ -456,7 +456,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/43.jpg"
+        image: "43.jpg"
     },            {
         title: "CIVIL ENGINEERING",
         author: " ",
@@ -466,7 +466,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/44.jpg"
+        image: "44.jpg"
     },            {
         title: "CIVIL ENGINEERING",
         author: " ",
@@ -476,7 +476,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/45.jpg"
+        image: "45.jpg"
     },            {
         title: "SANVIDHAN",
         author: " ",
@@ -486,7 +486,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/46.jpg"
+        image: "46.jpg"
     },            {
         title: "INDIA",
         author: "RANJAN KOLAMBE",
@@ -495,8 +495,8 @@ const books = [
         availability: "Available",
         department: "Swami Vivekand Library",
         rating: "3.9",
-        owner: "Kunal",
-        image: "D:/47.jpg"
+        owner: "kunal",
+        image: "47.jpg"
     },            {
         title: "HISTORY OF MAHARATRA",
         author: "S.S.GATHAL",
@@ -506,7 +506,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/48.jpg"
+        image: "48.jpg"
     },            {
         title: "ENGLISH",
         author: "SP BAKSHI",
@@ -516,7 +516,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/49.jpg"
+        image: "49.jpg"
     },            {
         title: "SUBCONSIOUS MIND",
         author: "JOSEF MARFI",
@@ -526,7 +526,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/50.jpg"
+        image: "50.jpg"
     },            {
         title: "SCIENCE",
         author: "SACHIN BHASKE",
@@ -536,7 +536,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/51.jpg"
+        image: "51.jpg"
     },            {
         title: "ARTHVYASTHA",
         author: "RANJAN KOLAMBE",
@@ -546,7 +546,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/52.jpg"
+        image: "52.jpg"
     },            {
         title: "35000+ JAMBO",
         author: "SIDDDHESHWAR HADAVE",
@@ -556,7 +556,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/53.jpg"
+        image: "53.jpg"
     },            {
         title: "40,000+ JAMBO",
         author: "SIDDDHESHWAR HADAVE",
@@ -566,7 +566,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/54.jpg"
+        image: "54.jpg"
     },            {
         title: "REASONING",
         author: "MANISH SIR",
@@ -576,7 +576,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/55.jpg"
+        image: "55.jpg"
     },            {
         title: "MATHS",
         author: "SACHIN JAGATAP",
@@ -586,7 +586,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/56.jpg"
+        image: "56.jpg"
     },            {
         title: "SCIENCE",
         author: "LUCENT'S",
@@ -596,7 +596,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/57.jpg"
+        image: "57.jpg"
     },            {
         title: "MARATHI",
         author: "BALASAHEB SHINDE",
@@ -606,7 +606,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/58.jpg"
+        image: "58.jpg"
     },            {
         title: "ELECTRISHIAN",
         author: " ",
@@ -616,7 +616,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/59.jpg"
+        image: "59.jpg"
     },
     {
         title: "MPSC,POLICE",
@@ -627,7 +627,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/60.jpg"
+        image: "60.jpg"
     },            {
         title: "TALATHI",
         author: "SIDDHESHWAR HADAVE",
@@ -637,7 +637,7 @@ const books = [
         department: "SHRI ANIL AMBAR LIBRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/61.jpg"
+        image: "61.jpg"
     },            {
         title: "RAILWAY",
         author: " ",
@@ -647,7 +647,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "Kunal",
-        image: "D:/62.jpg"
+        image: "62.jpg"
     },            {
         title: "10TH",
         author: "NAVANIT",
@@ -657,7 +657,7 @@ const books = [
         department: "GIRLS LABRARY",
         rating: "3.9",
         owner: "CHAITANYA",
-        image: "D:/63.jpg"
+        image: "63.jpg"
     },            {
         title: "10TH",
         author: "NAVANIT",
@@ -667,7 +667,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "CHAITANYA",
-        image: "D:/64.jpg"
+        image: "64.jpg"
     },            {
         title: "10TH",
         author: "NAVANIT",
@@ -677,7 +677,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "CHAITANYA",
-        image: "D:/65.jpg"
+        image: "65.jpg"
     },            {
         title: "10TH",
         author: "NAVANIT",
@@ -687,7 +687,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "CHAITANYA",
-        image: "D:/66.jpg"
+        image: "66.jpg"
     },            {
         title: "10TH",
         author: "NAVANIT",
@@ -697,7 +697,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "CHAITANYA",
-        image: "D:/67.jpg"
+        image: "67.jpg"
     },            {
         title: "9TH MATHS",
         author: "SSC",
@@ -707,7 +707,7 @@ const books = [
         department: "Swami Vivekand Library",
         rating: "3.9",
         owner: "CHAITANYA",
-        image: "D:/68.jpg"
+        image: "68.jpg"
     },
     {
         title: "HISTORY",
@@ -718,6 +718,6 @@ const books = [
         department: "इयत्ता नववी राज्यशास्त्र",
         rating: "3.9",
         owner: "CHAITANYA",
-        image: "D:/69.jpg"
+        image: "69.jpg"
     },            
 ];
